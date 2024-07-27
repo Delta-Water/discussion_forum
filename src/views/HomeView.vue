@@ -217,43 +217,43 @@ export default {
       // 从action提前构建的数据中加载
       const categories = [
         {
-          name: "A公告",
-          description: "维护者更新",
+          name: "公告栏",
+          description: "公告项目事宜",
           emojiHTML: "<div>📣</div>",
           emoji: ":mega:",
           id: "DIC_kwDOL_11UM4CfkqR",
         },
         {
-          name: "B闲聊区",
-          description: "可以在这儿聊所有有关Legado的事情",
+          name: "闲聊区",
+          description: "聊一聊有关铁锈的事情",
           emojiHTML: "<div>💬</div>",
           emoji: ":speech_balloon:",
           id: "DIC_kwDOL_11UM4CfkqS",
         },
         {
-          name: "C书源发布",
-          description: "分享你编写或喜欢的书源以及书源合集",
+          name: "模组区",
+          description: "分享优质模组",
           emojiHTML: "<div>💡</div>",
           emoji: ":bulb:",
           id: "DIC_kwDOL_11UM4CfkqU",
         },
         {
-          name: "D订阅源发布",
-          description: "分享你编写或喜欢的订阅源",
+          name: "地图区",
+          description: "分享优质地图",
           emojiHTML: "<div>🙌</div>",
           emoji: ":raised_hands:",
           id: "DIC_kwDOL_11UM4CfkqV",
         },
         {
-          name: "E问答区",
-          description: "寻求社区的帮助",
+          name: "教程区",
+          description: "用于学习和寻求帮助",
           emojiHTML: "<div>🙏</div>",
           emoji: ":pray:",
           id: "DIC_kwDOL_11UM4CfkqT",
         },
         {
-          name: "F投票",
-          description: "社区投票",
+          name: "其他区",
+          description: "发布其他内容",
           emojiHTML: "<div>🗳️</div>",
           emoji: ":ballot_box:",
           id: "DIC_kwDOL_11UM4CfkqW",
@@ -272,7 +272,7 @@ export default {
         return;
       }
       if (!configStore.access_token) {
-        showFailToast("登录后浏览板块");
+        showFailToast("登录后才能浏览板块~");
         return;
       }
       router.push(`/category/${e.currentTarget.dataset.id}`);
