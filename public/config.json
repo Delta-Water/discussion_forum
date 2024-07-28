@@ -1,6 +1,6 @@
 {
     "site":{
-        "name": "legado 开源论坛",
+        "name": "铁锈战争 开源论坛",
         "description": "借助 Github API 和 Discussion 使用 Vue.js 的开发开源论坛",
         "logo": "/logo.png"
     },
