@@ -16,6 +16,6 @@
         "owner": "Delta-Water",
         "repo": "discussion_forum",
         "clientId": "Ov23li7ZiN6C8s3lhv5n",
-        "redirectUri": "https://delta-water.github.io/discussion_forum"
+        "redirectUri": "https://delta-water.github.io/discussion_forum/api/auth"
     }
 }
